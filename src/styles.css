@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6f8;
+}
+
+a {
+  color: #c60021;
+  text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 120px;
+  height: 46px;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin: 0px 10px 0px 0px;
+}
+
+select {
+  width: 120px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  margin: 0px 10px 0px 0px;
+}
+
+button {
+  width: 90px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #a4a4a4;
+  color: White;
+  margin: 0px 10px 0px 0px;
+}
+
+button:disabled {
+  background-color: #e3e3e3;
+  color: #ccc;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #e3e3e3;
+}

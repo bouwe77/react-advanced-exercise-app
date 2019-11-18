@@ -1,0 +1,56 @@
+.app {
+  background-color: #e3e3e3;
+  min-height: 600px;
+}
+
+.container {
+  margin: 0px 0px 20px 0px;
+}
+
+header {
+  margin: 0;
+  padding: 10px 10px 0px 10px;
+}
+
+header h1 {
+  display: inline;
+  color: #c60021;
+  font-family: "Advent Pro", sans-serif;
+}
+
+nav {
+  display: inline;
+  padding: 0px 0px 0px 30px;
+}
+
+.nav-item {
+  color: #a4a4a4;
+}
+
+.nav-item:hover {
+  color: #c60021;
+}
+
+.nav-item-active {
+  color: #c60021;
+}
+
+hr {
+  border: 1px solid #c60021;
+}
+
+.content {
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  min-height: 540px;
+}
+
+footer {
+  padding: 10px;
+  font-size: 10pt;
+  color: #a4a4a4;
+}
+
+footer .emphasis {
+  color: #c60021;
+}

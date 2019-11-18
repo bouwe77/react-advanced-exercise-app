@@ -1,0 +1,20 @@
+.gifs-container {
+  background-color: #fff;
+  padding: 10px 0px 10px 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.row > .item {
+  flex-grow: 1;
+  flex: 1 1 30%;
+}
+
+.item {
+  padding: 10px;
+}

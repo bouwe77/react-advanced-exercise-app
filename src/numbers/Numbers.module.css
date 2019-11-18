@@ -1,0 +1,17 @@
+blockquote {
+  background-color: #fff;
+  font-size: 16px;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  font-style: italic;
+}
+
+blockquote p:before,
+blockquote p:after {
+  content: '"';
+}
+
+blockquote footer {
+  background-color: #fff;
+  font-size: 12px;
+}
