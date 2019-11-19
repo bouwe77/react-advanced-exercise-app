@@ -12,9 +12,6 @@ export const useNumberApi = () => {
   };
 
   const searchNumberApi = async (number, searchType) => {
-    // Do not query the API if it is not a number.
-    if (isNaN(number)) return dontKnow;
-
     // Pick a random search type when not specified.
     if (!searchType) searchType = searchTypes[Math.floor(Math.random() * searchTypes.length)];
 
