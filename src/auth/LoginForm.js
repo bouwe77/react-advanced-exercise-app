@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LoginForm.module.css";
 
-export default ({ login }) => {
+export default function LoginForm({ signIn }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -9,7 +9,7 @@ export default ({ login }) => {
     <form
       onSubmit={event => {
         event.preventDefault();
-        login(username, password);
+        signIn(username, password);
       }}
     >
       <input
@@ -27,4 +27,4 @@ export default ({ login }) => {
       <button type="submit">Sign In</button>
     </form>
   );
-};
+}

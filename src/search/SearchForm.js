@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SearchForm.module.css";
 
-export default function({ search }) {
+export default function SearchForm({ search }) {
   const [query, setQuery] = useState("");
   const canBeSubmitted = query && query.length > 0;
 
@@ -16,13 +16,7 @@ export default function({ search }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        value={query}
-        onChange={handleQueryChange}
-        maxLength="8"
-        placeholder=""
-      />
+      <input type="text" value={query} onChange={handleQueryChange} placeholder="" />
       <button type="submit" disabled={!canBeSubmitted}>
         Search
       </button>
