@@ -21,7 +21,8 @@ function App() {
 export default App;
 
 const appInfo = {
-  name: "jaze",
+  logo: "jaze",
+  name: "just another zearch engine",
   author: "Bouwe",
   website: "https://bouwe.io"
 };

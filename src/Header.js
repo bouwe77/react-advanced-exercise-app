@@ -5,7 +5,7 @@ export default ({ appInfo }) => {
   return (
     <header>
       <a href="#">
-        <h1>{appInfo.name}</h1>
+        <h1>{appInfo.logo}</h1>
       </a>
     </header>
   );
