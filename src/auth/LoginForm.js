@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./LoginForm.module.css";
+import styles from "./LoginForm.module.css";
 
 export default function LoginForm({ signIn }) {
   const [username, setUsername] = useState("");
@@ -17,12 +17,14 @@ export default function LoginForm({ signIn }) {
         placeholder="username"
         value={username}
         onChange={event => setUsername(event.target.value)}
+        className={styles["login-box"]}
       />
       <input
         type="password"
         placeholder="password"
         value={password}
         onChange={event => setPassword(event.target.value)}
+        className={styles["login-box"]}
       />
       <button type="submit">Sign In</button>
     </form>

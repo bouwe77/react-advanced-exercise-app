@@ -1,6 +1,10 @@
-input[type="text"],
-input[type="password"] {
-  background-image: none;
-  padding: 12px 20px 12px 10px;
+.login-box {
   width: 120px;
+  height: 46px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+  margin: 0px 10px 0px 0px;
 }
