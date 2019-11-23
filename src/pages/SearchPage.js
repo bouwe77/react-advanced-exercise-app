@@ -15,6 +15,7 @@ function SearchPage() {
       console.log(numberApiResult);
     } catch (error) {
       console.log(error);
+    } finally {
     }
   }
 
