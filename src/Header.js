@@ -7,6 +7,7 @@ export default ({ appInfo }) => {
       <a href="#">
         <h1>{appInfo.appShortName}</h1>
       </a>
+      <nav> </nav>
     </header>
   );
 };
